@@ -140,12 +140,13 @@ $string['email_user_reject'] = 'Your application was rejected';
 $string['email_user_other']  = 'The administrator has processed your application';
 $string['email_noreply'] = 'This email is automatically. Please do not reply to this email.';
 //
+$string['file'] = 'File';
 $string['only_acked_accept'] = 'Reception Only';
-$string['only_acked_accept_help'] = 'Enable to only accept reception. Specify when processing is not required.'; 
+$string['only_acked_accept_help'] = 'Enable to only accept reception. Specify when processing is not required.';
 $string['enable_deletemode'] = 'Delete Mode';
-$string['enable_deletemode_help'] = 'This enables a teacher to delete all applications.<br />Usually, please set to "No" for safety.'; 
+$string['enable_deletemode_help'] = 'This enables a teacher to delete all applications.<br />Usually, please set to "No" for safety.';
 $string['can_discard'] = 'Can Discard';
-$string['can_discard_help'] = 'Enable cancellation of application.'; 
+$string['can_discard_help'] = 'Enable cancellation of application.';
 $string['date_format']      = 'Display format of date(time)';
 $string['date_format_default'] = '%m/%d/%y %H:%M';
 $string['date_format_help'] = 'Specify display format of date and time. The default is %m/%d/%y %H:%M';
