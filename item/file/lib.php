@@ -344,6 +344,12 @@ class apply_item_file extends apply_item_base {
     }
 
     public function check_value($value, $item) {
+        if (empty($item->required) && empty($value)) {
+            return true;
+        } else if (!empty($item->required) && empty($value)) {
+            return false;
+        }
+
         list($context, $filearea) = $this->get_file_area_params($item);
         $elname      = 'file_' . $item->id;
         $draftitemid = file_get_submitted_draft_itemid($elname);
